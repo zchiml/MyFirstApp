@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		System.out.println("This line added by github editor");
+		System.out.println("Another test line from github");
 	}
 
 	@Override
