@@ -32,11 +32,11 @@ public class MainActivity extends Activity {
 		case R.id.action_search:            
 			//openSearch();            
 			return true;        
-			case R.id.action_settings:            
-				//openSettings();            
-				return true;        
-				default:            
-					return super.onOptionsItemSelected(item);    
+		case R.id.action_settings:            
+			//openSettings();            
+			return true;        
+			default:            
+				return super.onOptionsItemSelected(item);    
 		}
 	}
 	
